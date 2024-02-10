@@ -13,7 +13,7 @@ include('config/configuration.php');
 
 $curl = new Curl();
 $curl->setProxy($servers, $port, $username, $password);
-$curl->setProxyType(CURLPROXY_SOCKS5);
+$curl->setProxyType(CURLPROXY_SOCK5);
 $curl->get('http://checkip.dyndns.org/');
 
 if ($curl->error) {
