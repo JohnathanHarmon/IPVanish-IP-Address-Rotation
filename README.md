@@ -3,22 +3,20 @@ Automatic tool to change IP Address randomly and realtime with IP Vanish Premium
 
 
 ## Requirements
-- IP Vanish Premium Account.
+- IPVanish Premium Account.
 
 ## Usage
 - Login your account IP Vanish
-- Get Your Proxy Credentials : [IPVanish Credentials](https://account.ipvanish.com/index.php?t=SOCKS5%20Proxy).
+- Get Your Proxy Credentials : [IPVanish Credentials](https:/account.ipvanish.com/index.php?t=SOCKS5%20Proxy).
 - Open tools, configuration/config.php
 - Edit username and password.
   
 ## Example
 ```
-{
-    "servers": "otp.socks.ipvanish.com",
+{   "servers": "otp.socks.ipvanish.com",
     "port": "1080",
-    "username": "aBcDeFGhI1337",
-    "password": "PaSsWoRdS1337"
-}
+    "username": "john.s.harmon@outlook.com",
+    "password": "masrUm-vydbah-keqfi9"}
 ```
 ## Thanks
 
